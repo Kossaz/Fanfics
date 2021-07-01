@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="316dp"
+        android:textColor="@color/black"
+        tools:text="Fanfic Name" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_title"
+        android:layout_marginStart="8dp"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/text_view_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_description"
+        android:layout_marginStart="8dp"
+        tools:text="Tag" />
+
+    <TextView
+        android:id="@+id/text_view_fandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-87dp"
+        android:layout_toEndOf="@+id/text_view_title"
+        android:text="Fandom" />
+
+</RelativeLayout>
